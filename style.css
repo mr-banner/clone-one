@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --primary-text-color:#183b56;
+    --seconday-text-color:#577592;
+    --acent-color:#2294ed;
+    --acent-color-dark:#1d69a3;
+    --pading-inline-section:20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--seconday-text-color);
+    line-height: 1.9rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 50px var(--pading-inline-section) 0;
+}
+.hoover-links{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hoover-links:hover{
+    color: var(--acent-color);
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.primary-btn{
+     border-radius: 6px;
+     color: white !important;
+     background-color: var(--acent-color);
+     font-weight: 700;
+     box-shadow: 0 0 2px var(--acent-color-dark);
+     padding: 12px 24px;
+     transition: 0.2s ease-out;
+}
+
+.primary-btn:hover{
+    background-color: var(--acent-color-dark);
+}
+
+.secondary-btn{
+    border-radius: 6px;
+    border: 0.5px solid var(--seconday-text-color);
+    font-weight: 600;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    color: var(--primary-text-color) !important;
+} 
+
+.secondary-btn:hover{
+    color:var(--acent-color) !important;
+    border-color:var(--acent-color);
+}
+
+.container{
+    max-width: 1180px;
+    padding-inline: var(--pading-inline-section);
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.top-banner{
+    background-image: url('./assets/asset\ 30.png');
+    background-size: 300px;
+    background-color: #4fb3d4;
+}
+
+.top-banner-text{
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+
+.header-left a{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 600px;
+}
+
+.company-header{
+    margin-block: 30px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.logos{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 46px;
+}
+
+.feature{
+    padding: 80px var(--pading-inline-section) 0;
+    background-image: url(./assets/asset\ 32.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.feature-header{
+    text-align: center;
+}
+
+.feature-header h2{
+    margin-bottom: 20px;
+}
+
+.feature-area{
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+   
+}
+
+.feature-card{
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    gap: 20px;
+}
+
+.feature-card img{
+    width: 40px;
+}
+
+.more-feature-section{
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 40px var(--pading-inline-section) 0;
+    gap: 40px;
+}
+
+.f1-left img{
+    width: 100%;
+}
+
+.f1-right{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.example-area{
+    justify-content: space-between;
+    margin-block: 20px;
+
+}
+
+.example-card{
+    width: 23%;
+    min-height: 300px;
+    background-color: black;
+    position: relative;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 34.jpeg);
+    background-size: cover;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 35.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.cta-part{
+    background-color: #183b54;
+    padding: 120px var(--pading-inline-section) 90px;
+    
+}
+
+.cta-content{ 
+    color: white;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cta-content p{
+    color: white;
+    margin-top: 20px;
+}
+footer{
+    background-color: #ebf2fa;
+    padding-block: 80px;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+
+.footer-container{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subfooter-content{
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub-footer{
+    background-color:  #b9cde4;
+    padding: var(--pading-inline-section);
+}
+
